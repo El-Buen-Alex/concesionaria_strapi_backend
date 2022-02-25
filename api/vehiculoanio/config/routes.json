@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/vehiculoanios",
+      "handler": "vehiculoanio.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/vehiculoanios/count",
+      "handler": "vehiculoanio.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/vehiculoanios/:id",
+      "handler": "vehiculoanio.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/vehiculoanios",
+      "handler": "vehiculoanio.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/vehiculoanios/:id",
+      "handler": "vehiculoanio.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/vehiculoanios/:id",
+      "handler": "vehiculoanio.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

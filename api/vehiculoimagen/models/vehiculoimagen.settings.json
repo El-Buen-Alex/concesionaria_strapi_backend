@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vehiculoimagens",
+  "info": {
+    "name": "vehiculoimagen"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "color": {
+      "type": "string",
+      "required": true
+    },
+    "url_imagen": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "vehiculoanio": {
+      "model": "vehiculoanio"
+    }
+  }
+}

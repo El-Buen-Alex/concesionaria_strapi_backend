@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vehiculoanios",
+  "info": {
+    "name": "vehiculoanio",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "anio": {
+      "type": "integer",
+      "required": true
+    },
+    "vehiculo": {
+      "model": "vehiculo"
+    }
+  }
+}

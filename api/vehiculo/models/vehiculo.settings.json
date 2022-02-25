@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vehiculos",
+  "info": {
+    "name": "vehiculo",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "modelo": {
+      "type": "string",
+      "required": true
+    },
+    "estado": {
+      "type": "string",
+      "required": true,
+      "maxLength": 1
+    },
+    "categoria": {
+      "model": "categoria"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/vehiculoimagens",
+      "handler": "vehiculoimagen.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/vehiculoimagens/count",
+      "handler": "vehiculoimagen.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/vehiculoimagens/:id",
+      "handler": "vehiculoimagen.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/vehiculoimagens",
+      "handler": "vehiculoimagen.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/vehiculoimagens/:id",
+      "handler": "vehiculoimagen.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/vehiculoimagens/:id",
+      "handler": "vehiculoimagen.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
