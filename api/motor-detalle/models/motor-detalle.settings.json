@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "kits",
+  "collectionName": "motor_detalles",
   "info": {
-    "name": "kit",
-    "description": ""
+    "name": "motor_detalle"
   },
   "options": {
     "increments": true,
@@ -12,15 +11,12 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "detalle": {
       "type": "string",
       "required": true
     },
-    "precio": {
-      "type": "decimal"
-    },
-    "vehiculoanio": {
-      "model": "vehiculoanio"
+    "motor": {
+      "model": "motor"
     }
   }
 }

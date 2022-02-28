@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/motor-detalles",
+      "handler": "motor-detalle.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/motor-detalles/count",
+      "handler": "motor-detalle.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/motor-detalles/:id",
+      "handler": "motor-detalle.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/motor-detalles",
+      "handler": "motor-detalle.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/motor-detalles/:id",
+      "handler": "motor-detalle.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/motor-detalles/:id",
+      "handler": "motor-detalle.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

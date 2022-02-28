@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/traccion-detalles",
+      "handler": "traccion-detalle.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/traccion-detalles/count",
+      "handler": "traccion-detalle.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/traccion-detalles/:id",
+      "handler": "traccion-detalle.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/traccion-detalles",
+      "handler": "traccion-detalle.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/traccion-detalles/:id",
+      "handler": "traccion-detalle.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/traccion-detalles/:id",
+      "handler": "traccion-detalle.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

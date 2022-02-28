@@ -19,7 +19,8 @@
     "estado": {
       "type": "string",
       "required": true,
-      "maxLength": 1
+      "maxLength": 1,
+      "default": "A"
     },
     "categoria": {
       "model": "categoria"

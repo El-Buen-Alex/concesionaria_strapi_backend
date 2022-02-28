@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "kits",
+  "collectionName": "traccion_detalles",
   "info": {
-    "name": "kit",
-    "description": ""
+    "name": "traccion_detalle"
   },
   "options": {
     "increments": true,
@@ -12,15 +11,12 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "detalle": {
       "type": "string",
       "required": true
     },
-    "precio": {
-      "type": "decimal"
-    },
-    "vehiculoanio": {
-      "model": "vehiculoanio"
+    "traccion": {
+      "model": "traccion"
     }
   }
 }
