@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tipotransmisions",
+  "info": {
+    "name": "tipotransmision"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tipo": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

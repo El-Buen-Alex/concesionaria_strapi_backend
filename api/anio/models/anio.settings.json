@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "anios",
+  "info": {
+    "name": "anio"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "anio_publicado": {
+      "required": true,
+      "type": "integer"
+    }
+  }
+}

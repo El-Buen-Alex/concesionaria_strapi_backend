@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "vehiculoanios",
+  "collectionName": "motors",
   "info": {
-    "name": "vehiculoanio",
-    "description": ""
+    "name": "motor"
   },
   "options": {
     "increments": true,
@@ -12,20 +11,15 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "estado": {
+    "especificacion": {
       "type": "string",
-      "required": true,
-      "maxLength": 1,
-      "default": "A"
-    },
-    "anio": {
-      "model": "anio"
-    },
-    "vehiculo": {
-      "model": "vehiculo"
+      "required": true
     },
     "precio": {
       "type": "decimal"
+    },
+    "vehiculoanio": {
+      "model": "vehiculoanio"
     }
   }
 }

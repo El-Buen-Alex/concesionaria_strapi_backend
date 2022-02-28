@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/traccions",
+      "handler": "traccion.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/traccions/count",
+      "handler": "traccion.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/traccions/:id",
+      "handler": "traccion.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/traccions",
+      "handler": "traccion.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/traccions/:id",
+      "handler": "traccion.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/traccions/:id",
+      "handler": "traccion.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

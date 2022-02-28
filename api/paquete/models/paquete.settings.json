@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "vehiculoimagens",
+  "collectionName": "paquetes",
   "info": {
-    "name": "vehiculoimagen",
+    "name": "paquete",
     "description": ""
   },
   "options": {
@@ -12,19 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "color": {
+    "name": {
       "type": "string",
       "required": true
     },
-    "url_imagen": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": true,
-      "pluginOptions": {}
+    "precio": {
+      "type": "decimal",
+      "required": true
     },
     "vehiculoanio": {
       "model": "vehiculoanio"

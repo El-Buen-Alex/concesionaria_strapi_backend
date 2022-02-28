@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "paquete_detalles",
+  "info": {
+    "name": "paquete_detalle",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "detalle": {
+      "type": "string"
+    },
+    "paquete": {
+      "model": "paquete"
+    }
+  }
+}

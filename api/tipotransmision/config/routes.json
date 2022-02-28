@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tipotransmisions",
+      "handler": "tipotransmision.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tipotransmisions/count",
+      "handler": "tipotransmision.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tipotransmisions/:id",
+      "handler": "tipotransmision.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tipotransmisions",
+      "handler": "tipotransmision.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tipotransmisions/:id",
+      "handler": "tipotransmision.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tipotransmisions/:id",
+      "handler": "tipotransmision.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

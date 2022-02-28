@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "vehiculoimagens",
+  "collectionName": "traccions",
   "info": {
-    "name": "vehiculoimagen",
+    "name": "traccion",
     "description": ""
   },
   "options": {
@@ -12,19 +12,12 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "color": {
-      "type": "string",
+    "precio": {
+      "type": "decimal",
       "required": true
     },
-    "url_imagen": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": true,
-      "pluginOptions": {}
+    "tipotraccion": {
+      "model": "tipotraccion"
     },
     "vehiculoanio": {
       "model": "vehiculoanio"

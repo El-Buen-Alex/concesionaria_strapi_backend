@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tipotraccions",
+  "info": {
+    "name": "tipotraccion",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tipo": {
+      "type": "string"
+    }
+  }
+}

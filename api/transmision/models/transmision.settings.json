@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "transmisions",
+  "info": {
+    "name": "transmision"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "detalle": {
+      "type": "text",
+      "required": true
+    },
+    "vehiculoanio": {
+      "model": "vehiculoanio"
+    },
+    "tipotransmision": {
+      "model": "tipotransmision"
+    }
+  }
+}

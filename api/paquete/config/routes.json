@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/paquetes",
+      "handler": "paquete.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/paquetes/count",
+      "handler": "paquete.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/paquetes/:id",
+      "handler": "paquete.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/paquetes",
+      "handler": "paquete.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/paquetes/:id",
+      "handler": "paquete.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/paquetes/:id",
+      "handler": "paquete.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

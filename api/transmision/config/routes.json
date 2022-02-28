@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/transmisions",
+      "handler": "transmision.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/transmisions/count",
+      "handler": "transmision.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/transmisions/:id",
+      "handler": "transmision.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/transmisions",
+      "handler": "transmision.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/transmisions/:id",
+      "handler": "transmision.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/transmisions/:id",
+      "handler": "transmision.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

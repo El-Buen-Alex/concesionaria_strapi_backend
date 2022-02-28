@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tipotraccions",
+      "handler": "tipotraccion.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tipotraccions/count",
+      "handler": "tipotraccion.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tipotraccions/:id",
+      "handler": "tipotraccion.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tipotraccions",
+      "handler": "tipotraccion.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tipotraccions/:id",
+      "handler": "tipotraccion.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tipotraccions/:id",
+      "handler": "tipotraccion.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
