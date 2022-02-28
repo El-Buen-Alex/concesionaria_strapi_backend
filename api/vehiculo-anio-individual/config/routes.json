@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/vehiculo-anio-individuals",
+      "handler": "vehiculo-anio-individual.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/vehiculo-anio-individuals/count",
+      "handler": "vehiculo-anio-individual.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/vehiculo-anio-individuals/:id",
+      "handler": "vehiculo-anio-individual.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/vehiculo-anio-individuals",
+      "handler": "vehiculo-anio-individual.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/vehiculo-anio-individuals/:id",
+      "handler": "vehiculo-anio-individual.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/vehiculo-anio-individuals/:id",
+      "handler": "vehiculo-anio-individual.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
