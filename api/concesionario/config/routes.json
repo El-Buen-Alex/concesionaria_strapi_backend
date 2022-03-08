@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/concesionarios",
+      "handler": "concesionario.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/concesionarios/count",
+      "handler": "concesionario.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/concesionarios/:id",
+      "handler": "concesionario.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/concesionarios",
+      "handler": "concesionario.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/concesionarios/:id",
+      "handler": "concesionario.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/concesionarios/:id",
+      "handler": "concesionario.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "concesionarios",
+  "info": {
+    "name": "concesionario",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "Calles": {
+      "type": "string",
+      "required": true
+    },
+    "longitud": {
+      "type": "float",
+      "required": true
+    },
+    "latitud": {
+      "type": "float",
+      "required": true
+    },
+    "provincia": {
+      "model": "provincia"
+    }
+  }
+}
