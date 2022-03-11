@@ -24,6 +24,9 @@
     },
     "categoria": {
       "model": "categoria"
+    },
+    "detalle": {
+      "type": "richtext"
     }
   }
 }
