@@ -2,7 +2,7 @@
     
 const { parseMultipartData, sanitizeEntity } = require('strapi-utils');
 const stripe = require('stripe')(process.env.STRIPE_KEY)
-const MY_DOMAIN = 'http://localhost:3000/cart';
+const MY_DOMAIN = 'https://nuxt-concesionaria-grupo-dawa.netlify.app/cart';
 module.exports={
     async create(ctx){
         const { cartDetail, cartTotal } = ctx.request.body
